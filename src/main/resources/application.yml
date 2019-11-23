@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: extractor
+
+site:
+  ebay:
+    url: https://www.ebay.de/sch/i.html?_from=R40&_nkw=zenith&_sacat=0&LH_PrefLoc=3&LH_Auction=1&rt=nc&_udhi=150
+    classification-uri: http://localhost:5000/classify
+# https://www.ebay.de/sch/i.html?_from=R40&_nkw=zenith&_sacat=0&LH_PrefLoc=3&LH_Auction=1&rt=nc&_udhi=150
+# https://www.ebay.com/sch/i.html?_from=R40&_nkw=watch&_sacat=0&LH_ItemCondition=10%7C3000&LH_PrefLoc=5&_sop=12&_ipg=100&_udhi=200&rt=nc&LH_Auction=1
+# https://www.ebay.de/sch/i.html?_fsrp=1&LH_PrefLoc=3&_udhi=200&_sacat=0&_nkw=omega&LH_ItemCondition=3000%7C10&_from=R40&_sop=1&rt=nc&LH_Auction=1
